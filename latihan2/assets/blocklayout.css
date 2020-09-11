@@ -1,0 +1,111 @@
+main{
+width: 80%;
+margin:0 auto;
+padding: 5%;
+
+}
+main section.row1-1{
+		width: 10.5%;
+		height: 10vh;
+		background-color: blue;
+		margin-right: 1%;
+		float: left;
+}
+main section.row1-234{
+		width: 25%;
+		height: 10vh;
+		background-color: green;
+		margin-right: 1%;
+		float:left;
+}
+main section.row1-5{
+		width: 10.5%;
+		height: 10vh;
+		background-color: blue;
+		float: left;
+}
+main section.row2-123{
+		width: 24.25%;
+		height: 10vh;
+		background-color: red;
+		margin-right: 1%;
+		margin-top: 1%;
+		float:left;
+}
+main section.row2-4{
+		width: 24.25%;
+		height: 10vh;
+		background-color: red;
+		margin-top: 1%;
+		float:left;
+}
+main section.row3-123{
+		width: 24.25%;
+		height: 10vh;
+		background-color: red;
+		margin-right: 1%;
+		margin-top: 1%;
+		float:left;
+}
+main section.row3-4{
+		width: 24.25%;
+		height: 10vh;
+		background-color: red;
+		margin-top: 1%;
+		float:left;
+}
+main section.row4-1{
+		width: 24.25%;
+		height: 20vh;
+		background-color: yellow;
+		margin-right: 1%;
+		margin-top: 1%;
+		float:left;
+}
+main section.row4-2{
+  width: 24.25%;
+  height: 20vh;
+  margin-right: 1%;
+  margin-top: 1%;
+  float:left;
+}
+main section.row4-2-1{
+	width: 24.25%;
+	height: 4vh;
+}
+main section.row4-2-2{
+	width: 100%;
+	height:16vh;
+	background-color: yellow;
+}
+main section.row4-3{
+  width: 24.25%;
+  height: 20vh;
+  margin-right: 1%;
+  margin-top: 1%;
+  float:left;
+}
+main section.row4-3-1{
+	width: 24.25%;
+	height: 8vh;
+}
+main section.row4-3-2{
+	width: 100%;
+	height:12vh;
+	background-color: yellow;
+}
+main section.row4-4{
+  width: 24.25%;
+  height: 20vh;
+  margin-top: 1%;
+  float:left;
+}
+main section.row4-4-1{
+	width: 24.25%;
+	height: 10vh;
+}
+main section.row4-4-2{
+	width: 100%;
+	height:10vh;
+	background-color: yellow;
+}
