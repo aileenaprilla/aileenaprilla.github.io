@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.judul{
+	width: 500px;
+	height: 50px;
+	display: block;
+	padding-left: 20px;
+	background-color: grey;
+	color: white;
+	font-size: 25px;
+	float: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: absolute;
+	left: 100px;
+	display: flex;
+	align-items: center;
+}
+
+/*table*/
+
+table.route {
+	width: 30%;
+	min-width: 500px;
+	position: absolute;
+	border-collapse: collapse;
+	float: left;
+	top: 60px;
+	left: 120px;
+	border: 1px solid grey;
+	text-align: left;
+	font-size: 20px;
+	font-family: sans-serif;
+	float: left;
+
+}
+thead.route {
+	background-color: grey;
+	color: white;
+	border-right: 1px solid black;
+
+}
+tbody.route tr td {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 0px;
+	border-right: 1px solid grey;
+	
+}
+thead.route tr th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 0px;
+	border-right: 1px solid white;
+}
+table.transpert {
+	width: 35%;
+	min-width: 500px;
+	position: absolute;
+	left: 100px;
+	top: 220px;
+	text-align: left;
+	font-size: 25px;
+	font-family: sans-serif;
+	float: left;
+}
+thead.transpert {
+	color: green;
+	width: 70px;
+	border-collapse: collapse;
+}
+thead.transpert td th{
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+thead.information{
+	color: green;
+	width: 70px;
+	border-collapse: collapse;
+}
+thead.information tr th {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 30px;
+	border-bottom: 3px solid green;
+}
+tbody.call {
+	color: green;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+	text-align: left;
+	float: left;
+	padding-top: 7px;
+}
+tbody.info {
+	font-size: 12px;
+}
+tbody.info tr td {
+	padding-left: 30px;
+	padding-top: 5px;
+}
+tbody.visit{
+	color: green;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 15px;
+	text-align: left;
+	float: left;
+	padding-top: 7px;
+}
+tbody.hello{
+	font-size: 12px
+}
+tbody.hello tr td{
+	padding-top: 7px;
+}
+tbody.got{
+	color: green;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 15px;
+	text-align: left;
+	float: left;
+	padding-top: 7px;
+}
+tbody.download{
+	font-size: 12px;
+}
+tbody.download tr td{
+	padding-left: 18px;
+}
+tbody.online{
+	color: green;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 15px;
+	text-align: left;
+	float: left;
+	padding-top: 7px;
+
+}
+tbody.transpert{
+	font-size: 12px;
+}
+tbody.transpert tr td{
+	padding-left: 18px;
+}
+table.bus{
+	width: 15%;
+	position: absolute;
+	min-width: 200px;
+	left: 1000px;
+	float: right;
+	font-size: 23.5px;
+	font-family: sans-serif;
+}
+tbody.nomor{
+	font-size: 149.5px;
+	font-weight: bold;
+}
+tbody.nomor tr td {
+	padding-left: 12px;
+}
+tbody.pink{
+	font-size: 20px;
+	text-align: left;
+}
+tbody.pink tr td{
+	border-radius: 15px;
+	background-color: #E9DBEC;
+	height: 100px;
+	padding-left: 20px;
+}
+table.rute{
+	width: 36%;
+	min-width: 25px;
+	position: absolute;
+	left: 700px;
+	top: 300px;
+	float: right;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+tbody.rute{
+	font-size: 20px;
+}
+tbody.rute tr th{
+	padding-bottom: 5px;
+	border-bottom: 3px solid #8BA3CF;
+	width: 250px;
+}
+
+table.this{
+width: 40%;
+	min-width: 25px;
+	position: absolute;
+	left: 700px;
+	top: 350px;
+	float: right;
+	text-align: left;
+	font-family: sans-serif;
+	float: right;
+}
+tbody.jalan tr td {
+
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+tbody.jalan td:first-child {
+	font-size: 40px;
+	font-weight: bold;
+	padding-right: 10px;
+	text-align: left;
+}
+
