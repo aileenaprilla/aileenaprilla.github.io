@@ -1,0 +1,332 @@
+global.css main {
+   width: 100vw;
+   position: relative;
+   padding-top: 50px;
+   height: 100vh;
+   display: block;
+ 
+}
+
+div.hello {
+     margin-right: 14.552em!important;
+     margin-left: 14.552em!important;
+ 
+}
+
+/* TITLE */
+
+.judul {
+   width: 100%;
+   float: right;
+   font-family: "Avenir Neue", Avenir, minion-pro, serif;
+   font-variant: normal;
+   font-style: normal;
+   font-weight: bolder;
+   text-align: center;
+   
+}
+
+.judul1 {
+   width: 100%;
+   float: right;
+   font-family: "Avenir Neue", Avenir, minion-pro, serif;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: bolder;
+   text-align: center;
+
+
+}
+
+.sub {
+   width: 75%;
+   font-size: 1.225em;
+   float: right;
+   font-family: "Avenir Neue", Avenir, minion-pro, serif;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: bolder;
+   text-align: left;
+
+
+}
+
+h1 {
+   margin-bottom: 0%;
+   font-size: 3.815em;
+
+}
+
+h1.judul {
+ 
+   margin-bottom: 0%;  
+   font-size: 3.815em;
+
+}
+
+h2 {
+   margin-top: 0%;
+   font-size: 2.441em;
+
+}
+
+h2.judul {
+   margin-top: 0%;
+   font-size: 1.953em;
+
+}
+
+/* MAIN */
+
+.mainc {
+   width: 75%;
+   
+   line-height: 1.563em;
+   font-weight: normal;   
+   display: block;
+   float: right;
+   height: auto;
+
+}
+
+.mainc1 {
+   width: 100%;
+  
+   line-height: 1.563eem;
+   font-weight: normal; 
+   display: block;
+   float: right;
+   height: auto;
+
+}
+
+.utama2 {
+   width: 75%;
+   height: auto;
+   line-height: 1.563eem;
+   display: block;
+   float: right;
+   font-weight: normal;
+
+}
+
+p {
+   font-family: "Avenir", minion-pro, serif
+   text-align: justify;
+   text-indent: 50px;
+
+}
+
+.p-special {
+   font-family: "Avenir", minion-pro, serif;
+   text-align: justify;
+   text-indent: 0%;
+   
+}
+
+h3 {
+   font-family: "Avenir", minion-pro, minion-pro, serif;
+   font-size: 1em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: bold;
+   line-height: 1em;
+
+}
+
+.note {
+   width: 20%;
+   margin-right: 2em;
+   line-height: 1.563eem;
+   height: auto;
+   text-align: justify;
+   font-family: Avenir, minion-pro, serif;
+   font-size: 0.8em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   float: left;
+
+}
+
+.note-special {
+   width: 20%;
+   margin-right: 2em;
+   margin-top: 30em;
+   font-size: 0.8em;
+   height: auto;
+   text-align: justify;
+   font-family: Avenir, minion-pro, serif;
+   font-size: 1em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   float: left;
+
+}
+
+.listing {
+   width: 75%;
+   height: auto;
+   line-height: 1.563eem;
+   display: block;
+   text-align: justify;
+   font-family: Avenir, minion-pro, serif;
+   font-size: 1em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   float: right;
+
+}
+
+.listing1 {
+   width: 100%;
+   height: auto;
+   line-height: 1.563em;
+   display: block;
+   text-align: justify;
+   font-family: Avenir, minion-pro, serif;
+   font-size: 1em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   float: right;
+
+}
+
+.split {
+   margin-top: -1em;
+
+}
+
+.enote {
+   width: 75%;
+   height: auto;
+   line-height: 1.563eem;
+   display: block;
+   font-family: Avenir, minion-pro, serif;
+   font-size: 1em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   text-align: justify;
+   float: right;
+
+}
+
+.enote1 {
+   width: 100%;
+   height: auto;
+   line-height: 1.563eem;
+   display: block;
+   font-family: Avenir, minion-pro, serif;
+   font-size: 1em;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: normal;
+   text-align: justify;
+   float: right;
+
+}
+
+table {
+   width: 100%;
+}
+
+.links {
+   text-align: right;
+}
+
+@media screen and (max-width: 341px) {
+   div.hello {
+      margin-left: 1em!important;
+      margin-right: 1em!important;
+   }
+   /* TITLE */
+   .title {
+      text-align: left;
+      float: none;
+      width: auto;
+      
+   }
+   .sub {
+      text-align: left;
+      width: auto;
+      margin: auto;
+      
+   }
+   .h1 {
+      font-size: 4.68em;
+      width: auto;
+
+   }
+   h1.judul {
+      font-size: 3.815em;
+      margin-bottom: 0%;
+      width: auto;
+      margin: auto;
+
+   }
+   h2 {
+      font-size: 1.25em;
+
+   }
+   h2.judul {
+      margin-top: 0%;
+      font-size: 1.563em;
+
+   }
+   /* MAIN */
+   .utama {
+      width: auto;
+      margin: auto;
+      text-align: center;
+
+   }
+   .utama2 {
+      width: 100%;
+      margin: auto;
+      text-align: center;
+
+   }
+   .h3 {
+      font-size: 1em;
+      width: auto;
+
+   }
+   .enotes {
+      font-size: 0.8em;
+      width: auto;
+      margin: left;
+
+   }
+   .enote-special {
+      font-size: 0.8em;
+      width: auto;
+      margin: auto;
+
+   }
+   .listing {
+      margin: auto;
+      width: auto;
+
+   }
+   .split {
+      margin-top: 1em;
+
+   }
+   .first {
+      margin-bottom: auto;
+
+   }
+   .enote {
+      width: auto;
+      margin: auto;
+
+   }
+   .tabel {
+      width: 100%;
+
+   }
+}
