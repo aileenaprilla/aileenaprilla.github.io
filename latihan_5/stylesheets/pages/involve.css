@@ -1,0 +1,131 @@
+/* Front Page */
+div.front-page{
+    
+    background: var(--image-hippo-cover);
+    background-size: cover;
+}
+
+div.title-container{
+    margin-right: 15px;
+    margin-top: 20px;
+
+    /* Force whitespace wrap*/
+    max-width: 300px;
+}
+
+div.date{
+    font-family: "Titan One";
+    color: white;
+
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+}
+div.title{    
+    margin-top: .3em;
+    
+    font-family: "Titan One";
+    font-size: 2.5em;
+    color:var(--theme-yellow);
+
+    text-shadow: -1.6px 0 black, 0 1.6px black, 1.6px 0 black, 0 -1.6px black;
+}
+div.slogan{
+    margin-top: .2em;
+
+    color:rgba(255, 255, 255, .8);
+    font-family: "Helvetica";
+    font-size: .8em;
+}
+
+div.reposition-center{
+    background-position-y: center;
+}
+
+div.title-involve{
+    color: black;
+    font-family: "Helvetica";
+
+    font-weight: bolder;
+    text-align: center;
+    
+    padding:30px 20px;
+    padding-bottom: 0px;
+
+    font-size: 1.2em;
+}
+
+div.description-involve{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+div.donate{
+    background: var(--theme-orange);
+}
+
+div.donation-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: white;
+    border-radius: 50px;
+
+    min-width: 337px;
+    min-height: 200px;
+
+    width: 60vw;
+    height: 50vh;
+
+    max-height: 200px;
+    max-width: 350px;
+}
+
+div.pricing-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 50%;
+}
+
+div.pricing{
+    font-family: "Helvetica";
+    color:white;
+    padding: 20px;
+    background: var(--theme-green);
+    border-radius: 1000px;
+
+    min-width: 30px;
+    min-height: 30px;
+
+    width: 30vw;
+    height: 30vw;
+
+    max-height: 60px;
+    max-width: 60px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+div.yellow-button{
+    color: blue;
+    font-family: "Helvetica";
+    font-size: .7em;
+    font-style: italic;
+
+    background: var(--theme-yellow);
+    padding: 10px 50px;
+}
+
+div.yellow-button:hover{
+    cursor: pointer;
+}
+

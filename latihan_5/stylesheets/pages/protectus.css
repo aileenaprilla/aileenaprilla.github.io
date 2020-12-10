@@ -1,0 +1,18 @@
+.quote{
+    font-style: italic;
+    color: var(--theme-blue) !important;
+
+    font-size: 1.3em;
+    font-weight: 800 !important;
+    text-align: center !important;
+    
+    padding: 0px 47px !important;
+}
+
+.hashtag{
+    font-weight: 700 !important;
+    color: var(--theme-blue) !important;
+    
+    text-align: center !important;
+}
+

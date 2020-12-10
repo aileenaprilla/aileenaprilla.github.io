@@ -1,0 +1,229 @@
+/* Navbar css config */
+div.navbar{
+    margin:0px;
+
+    width: 100vw;
+    height: var(--navbar-height);
+    background-color: var(--theme-navbar);
+
+    position: fixed;
+    z-index: 5;
+}
+
+div.navbar-menu{
+    position: fixed;
+
+    height: 100vh;
+    width: 100vw;
+
+    max-width: 250px;
+    background: var(--theme-orange);
+
+    z-index: 10;
+}
+
+div.navbar-show{
+    transform: translateX(0px);
+    transition: 300ms ease;
+}
+
+div.navbar-hide{
+    transform: translateX(-250px);
+    transition: 300ms ease;
+    
+}
+
+div.navbar-overlay-hide{
+    opacity: 0;
+    pointer-events: none;
+    transition: 300ms ease;
+}
+
+div.navbar-overlay-show{
+    opacity: 1;
+    pointer-events: all;
+    transition: 300ms ease;
+}
+
+div.navbar-item:hover{
+    filter: brightness(-10%);
+}
+
+div.navbar-item{
+    width: 100%;
+    height: 2.5em;
+
+    font-size: 1.2em;
+    padding-left: 30px;
+    color: white;
+    font-family: "Helvetica";
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+div.navbar-item:first-child{
+    margin-top:30px;
+}
+
+div.navbar-overlay{
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+    background: rgba(0, 0, 0, .3);
+
+    z-index: 7;
+}
+
+div.menu{
+    float: left;
+
+    height:100%;
+    width: 55px;
+
+    /* Not important pls remove */
+    filter: invert();
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.menu:hover{
+    cursor: pointer;
+}
+
+/* Psudo elements for the menu logo */
+div.menu-home::before{
+    filter: invert();
+    content: "";
+    display: inline-block;
+    background-image: var(--nav-home);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+
+    margin-top:-5px;
+    margin-right: 15px;
+}
+div.menu-involved::before{
+    filter: invert();
+    content: "";
+    display: inline-block;
+    background-image: var(--nav-heart);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+
+    margin-top:-5px;
+    margin-right: 15px;
+}
+div.menu-events::before{
+    filter: invert();
+    content: "";
+    display: inline-block;
+    background-image: var(--nav-calendar);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+
+    margin-top:-5px;
+    margin-right: 15px;
+}
+div.menu-material::before{
+    filter: invert();
+    content: "";
+    display: inline-block;
+    background-image: var(--nav-document);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+
+    margin-top:-5px;
+    margin-right: 15px;
+}
+div.menu-film::before{
+    filter: invert();
+    content: "";
+    display: inline-block;
+    background-image: var(--nav-location);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+
+    margin-top:-5px;
+    margin-right: 15px;
+}
+div.menu-message::before{
+    filter: invert();
+    content: "";
+    display: inline-block;
+    background-image: var(--nav-mail);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+
+    margin-top:-5px;
+    margin-right: 15px;
+}
+div.menu-media::before{
+    filter: invert();
+    content: "";
+    display: inline-block;
+    background-image: var(--nav-photo);
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 25px;
+    height: 25px;
+
+    margin-top:-5px;
+    margin-right: 15px;
+}
+
+/* Pseudo Elements done */
+
+.menuIcon{
+    width: 60%;
+    height: 50%;
+
+    content: var(--nav-bar);
+}
+
+div.logo{
+    float: right;
+    margin-right: 10px;
+
+    height: 100%;
+    width: 155px;
+    
+    background: var(--nav-logo);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.navbar-large{
+    float: left;
+
+    color: white;
+    font-family: "Helvetica";
+    font-size: 1.1em;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 24px;
+
+    width: 60vw;
+    min-width: 600px;
+    max-width: 800px;
+    height: 100%;
+}
+
+div.navbar-large > a:hover {
+    color: rgba(255,255,255,.3) !important;
+}

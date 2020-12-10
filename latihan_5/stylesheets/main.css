@@ -1,0 +1,95 @@
+:root{
+    /* Default settings */
+    --theme-orange: #F26649;
+    --theme-blue: #464B85;
+    --theme-green: #8BB049;
+    --theme-yellow: #EDEAA3;
+    --theme-navbar: #171C1F;
+
+    --border-thickness: 1.2px;
+    --navbar-height: 70px;
+
+    /* Define image sources */
+    
+    /* Navbar image source */
+    --nav-home: url("../../assets/images/navbar/Home.png");
+    --nav-heart: url("../../assets/images/navbar/Heart.png");
+    --nav-calendar: url("../../assets/images/navbar/Calendar.png");
+    --nav-document: url("../../assets/images/navbar/Document.png");
+    --nav-location: url("../../assets/images/navbar/Location.png");
+    --nav-mail: url("../../assets/images/navbar/Mail.png");
+    --nav-photo: url("../../assets/images/navbar/photo.png");
+    --nav-logo: url("../../assets/images/navbar/logo.png");
+    --nav-bar: url("../../assets/images/navbar/bar.png");
+
+    /* Partner page image source */
+    --logo-wwf: url("../../assets/images/partners/wwf.png");
+    --logo-sos: url("../../assets/images/partners/sos.png");
+    --logo-undp: url("../../assets/images/partners/undp.png");
+    
+    --logo-facebook: url("../../assets/images/partners/Facebook.png");
+    --logo-instagram: url("../../assets/images/partners/Instagram.png");
+    --logo-pinterest: url("../../assets/images/partners/Pinterest.png");
+    --logo-twitter: url("../../assets/images/partners/Twitter.png");
+    
+    /*People images*/
+    --image-antonio: url('../../assets/images/people/Antonio-Guterres2.jpg');
+    --image-ivonne: url('../../assets/images/people/ms-Ivonne-higuero-cites-sg-2018.jpg');
+    --image-involve: url('../../assets/images/involve/cover.jpg');
+    
+    /* placeholder replaceable image */
+    --image-elephant-cover: url("../../assets/images/index/cover-front.jpg");
+    --image-about-us: url('../../assets/images/index/WWD2020_HomePic_2.jpg');
+    --index-img-1: url('../../assets/images/index/1.jpg');
+    
+    --aboutus-img-1: url('../../assets/images/aboutus/1.jpg');
+    --aboutus-img-2: url('../../assets/images/aboutus/2.jpg');
+
+    --protectus-img-1: url('../../assets/images/protectus/1.jpg');
+    --protectus-img-2: url('../../assets/images/protectus/2.jpg');
+    --protectus-img-3: url('../../assets/images/protectus/3.jpg');
+
+    --involve-img-1: url('../../assets/images/involve/1.jpg');
+    --involve-img-2: url('../../assets/images/involve/2.jpg');
+    
+    --image-hippo-cover: url("../../assets/images/celebrate/cover.jpg");
+    --celebrate-img-1: url('../../assets/images/celebrate/1.jpg');
+    --celebrate-img-2: url('../../assets/images/celebrate/2.jpg');
+    --celebrate-img-3: url('../../assets/images/celebrate/3.jpg');
+    --celebrate-img-4: url('../../assets/images/celebrate/4.jpg');
+    --celebrate-img-5: url('../../assets/images/celebrate/5.jpg');
+    --celebrate-img-6: url('../../assets/images/celebrate/6.jpg');
+    --celebrate-img-7: url('../../assets/images/celebrate/7.jpg');
+    --celebrate-img-8: url('../../assets/images/celebrate/8.jpg');
+    --celebrate-img-9: url('../../assets/images/celebrate/9.jpg');
+    --celebrate-img-10: url('../../assets/images/celebrate/10.jpg');
+    --celebrate-img-11: url('../../assets/images/celebrate/11.jpg');
+    --celebrate-img-12: url('../../assets/images/celebrate/12.jpg');
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+
+    max-width: 100%;
+
+    padding: 0px;
+    margin: 0px;
+
+    /* Forbid browser transform */
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    /* font-display: inline; */
+}
+
+
+
+div.about-us{
+    background: var(--theme-blue);   
+}
+
+div.content{
+    background: var(--theme-green);
+}

@@ -1,0 +1,86 @@
+/* Image definitions */
+.image-elephant {
+    background: var(--image-elephant);
+}
+
+.image-hippo {
+    background: var(--image-hippo-cover);
+}
+
+.image-involve {
+    background: var(--image-involve);
+}
+
+.image-about-us {
+    background: var(--image-about-us);
+}
+
+.image-antonio {
+    background: var(--image-antonio);
+}
+
+.image-ivonne {
+    background: var(--image-ivonne);
+}
+
+/* Place holder definitions */
+.index-img-1 {
+    background: var(--index-img-1);
+}
+.aboutus-img-1 {
+    background: var(--aboutus-img-1);
+}
+.aboutus-img-2 {
+    background: var(--aboutus-img-2);
+}
+.involve-img-1 {
+    background: var(--involve-img-1);
+}
+.involve-img-2 {
+    background: var(--involve-img-2);
+}
+.protectus-img-1 {
+    background: var(--protectus-img-1);
+}
+.protectus-img-2 {
+    background: var(--protectus-img-2);
+}
+.protectus-img-3 {
+    background: var(--protectus-img-3);
+}
+.celebrate-img-1 {
+    background: var(--celebrate-img-1);
+}
+.celebrate-img-2 {
+    background: var(--celebrate-img-2);
+}
+.celebrate-img-3 {
+    background: var(--celebrate-img-3);
+}
+.celebrate-img-4 {
+    background: var(--celebrate-img-4);
+}
+.celebrate-img-5 {
+    background: var(--celebrate-img-5);
+}
+.celebrate-img-6 {
+    background: var(--celebrate-img-6);
+}
+.celebrate-img-7 {
+    background: var(--celebrate-img-7);
+}
+.celebrate-img-8 {
+    background: var(--celebrate-img-8);
+}
+.celebrate-img-9 {
+    background: var(--celebrate-img-9);
+}
+.celebrate-img-10 {
+    background: var(--celebrate-img-10);
+}
+.celebrate-img-11 {
+    background: var(--celebrate-img-11);
+}
+.celebrate-img-12 {
+    background: var(--celebrate-img-12);
+}

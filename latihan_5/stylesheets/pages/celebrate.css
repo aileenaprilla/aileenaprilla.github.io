@@ -1,0 +1,10 @@
+div.hashtag-center{
+    text-align: center;
+    color: var(--theme-blue);
+    font-weight: bold;
+}
+
+span.orange-bold{
+    color: var(--theme-orange);
+    font-weight: bold;
+}

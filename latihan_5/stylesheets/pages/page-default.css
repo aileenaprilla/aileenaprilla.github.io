@@ -1,0 +1,32 @@
+/* Page config */
+
+div.page-content{
+    margin-top: var(--navbar-width);
+}
+
+div.page{
+    width: 100vw;
+    min-height: 95vh;
+    
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+div.page:first-child{
+    margin-top:var(--navbar-height);
+
+}
+
+div.centered-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.override-default-auto{
+    min-height: fit-content !important;
+}
+
+div.disable-prewrap{
+    white-space: normal !important;
+}

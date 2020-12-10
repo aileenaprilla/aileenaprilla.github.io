@@ -1,0 +1,42 @@
+/* Front Page */
+div.front-page{
+    
+    background: var(--image-elephant-cover);
+    background-size: cover;
+}
+
+div.title-container{
+
+    margin-left: 10px;
+    margin-top: 20px;
+
+    /* Force whitespace wrap*/
+    max-width: 300px;
+}
+
+div.date{
+    font-family: "Titan One";
+    color: white;
+
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+}
+div.title{    
+    margin-top: .3em;
+    
+    font-family: "Titan One";
+    font-size: 2.5em;
+    color:var(--theme-yellow);
+
+    text-shadow: -1.6px 0 black, 0 1.6px black, 1.6px 0 black, 0 -1.6px black;
+}
+div.slogan{
+    margin-top: .2em;
+
+    color:rgba(255, 255, 255, .8);
+    font-family: "Helvetica";
+    font-size: .8em;
+}
+
+div.section-grid-small{
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
